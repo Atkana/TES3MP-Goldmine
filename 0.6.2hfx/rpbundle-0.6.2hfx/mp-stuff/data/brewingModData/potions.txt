@@ -1,0 +1,470 @@
+SKOOMA
+failure
+failure
+failure
+potion_skooma_01
+potion_skooma_01
+
+BLIND
+
+BURDEN
+p_burden_b
+p_burden_c
+p_burden_s
+p_burden_q
+p_burden_e
+
+CURE BLIGHT DISEASE
+failure
+failure
+p_cure_blight_s
+p_cure_blight_s
+p_cure_blight_s
+
+CURE COMMON DISEASE
+failure
+failure
+p_cure_common_s
+p_cure_common_s
+p_cure_common_s
+
+CURE PARALYZATION
+failure
+failure
+p_cure_paralyzation_s
+p_cure_paralyzation_s
+p_cure_paralyzation_s
+
+CURE POISON
+failure
+failure
+p_cure_poison_s
+p_cure_poison_s
+p_cure_poison_s
+
+DAMAGE FATIGUE
+
+DAMAGE HEALTH
+
+DAMAGE INTELLIGENCE
+
+DAMAGE MAGICKA
+
+DETECT ANIMAL
+failure
+failure
+p_detect_creatures_s
+p_detect_creatures_s
+p_detect_creatures_s
+
+DETECT ENCHANTMENT
+failure
+failure
+p_detect_enchantment_s
+p_detect_enchantment_s
+p_detect_enchantment_s
+
+DETECT KEY
+failure
+failure
+p_detect_key_s
+p_detect_key_s
+p_detect_key_s
+
+DISPEL
+failure
+failure
+p_dispel_s
+p_dispel_s
+p_dispel_s
+
+DRAIN ALTERATION
+
+DRAIN AGILITY
+failure
+failure
+p_drain_agility_q
+p_drain_agility_q
+p_drain_agility_q
+
+DRAIN ENDURANCE
+failure
+failure
+p_drain_endurance_q
+p_drain_endurance_q
+p_drain_endurance_q
+
+DRAIN FATIGUE
+
+DRAIN HEALTH
+
+DRAIN INTELLIGENCE
+failure
+failure
+p_drain_intelligence_q
+p_drain_intelligence_q
+p_drain_intelligence_q
+
+DRAIN LUCK
+failure
+failure
+p_drain_luck_q
+p_drain_luck_q
+p_drain_luck_q
+
+DRAIN MAGICKA
+failure
+failure
+p_drain_magicka_q
+p_drain_magicka_q
+p_drain_magicka_q
+
+DRAIN PERSONALITY
+failure
+failure
+p_drain_personality_q
+p_drain_personality_q
+p_drain_personality_q
+
+DRAIN SPEED
+failure
+failure
+p_drain_speed_q
+p_drain_speed_q
+p_drain_speed_q
+
+DRAIN STRENGTH
+failure
+failure
+p_drain_strength_q
+p_drain_strength_q
+p_drain_strength_q
+
+DRAIN WILLPOWER
+failure
+failure
+p_drain willpower_q
+p_drain willpower_q
+p_drain willpower_q
+
+FEATHER
+p_feather_b
+p_feather_c
+p_feather_c
+p_feather_q
+p_feather_e
+
+FIRE SHIELD
+p_fire_shield_b
+p_fire_shield_c
+p_fire_shield_s
+p_fire_shield_q
+p_fire_shield_e
+
+FORTIFY AGILITY
+p_fortify_agility_b
+p_fortify_agility_c
+p_fortify_agility_s
+p_fortify_agility_q
+p_fortify_agility_e
+
+FORTIFY ATTACK
+failure
+failure
+failure
+failure
+p_fortify_attack_e
+
+FORTIFY ENDURANCE
+p_fortify_endurance_b
+p_fortify_endurance_c
+p_fortify_endurance_s
+p_fortify_endurance_q
+p_fortify_endurance_e
+
+FORTIFY FATIGUE
+p_fortify_fatigue_b
+p_fortify_fatigue_c
+p_fortify_fatigue_s
+p_fortify_fatigue_q
+p_fortify_fatigue_e
+
+FORTIFY HEALTH
+p_fortify_health_b
+p_fortify_health_c
+p_fortify_health_s
+p_fortify_health_q
+p_fortify_health_e
+
+FORTIFY INTELLIGENCE
+p_fortify_intelligence_b
+p_fortify_intelligence_c
+p_fortify_intelligence_s
+p_fortify_intelligence_q
+p_fortify_intelligence_e
+
+FORTIFY LUCK
+p_fortify_luck_b
+p_fortify_luck_c
+p_fortify_luck_s
+p_fortify_luck_q
+p_fortify_luck_e
+
+FORTIFY MAGICKA
+p_fortify_magicka_b
+p_fortify_magicka_c
+p_fortify_magicka_s
+p_fortify_magicka_q
+p_fortify_magicka_e
+
+FORTIFY MAXIMUM MAGICKA
+
+FORTIFY PERSONALITY
+p_fortify_personality_b
+p_fortify_personality_c
+p_fortify_personality_s
+p_fortify_personality_q
+p_fortify_personality_e
+
+FORTIFY SPEED
+p_fortify_speed_b
+p_fortify_speed_c
+p_fortify_speed_s
+p_fortify_speed_q
+p_fortify_speed_e
+
+FORTIFY STRENGTH
+p_fortify_strength_b
+p_fortify_strength_c
+p_fortify_strength_s
+p_fortify_strength_q
+p_fortify_strength_e
+
+FORTIFY WILLPOWER
+p_fortify_willpower_b
+p_fortify_willpower_c
+p_fortify_willpower_s
+p_fortify_willpower_q
+p_fortify_willpower_e
+
+FROST DAMAGE
+
+FROST SHIELD
+p_frost_shield_b
+p_frost_shield_c
+p_frost_shield_s
+p_frost_shield_q
+p_frost_shield_e
+
+INVISIBILITY
+p_invisibility_b
+p_invisibility_c
+p_invisibility_s
+p_invisibility_q
+p_invisibility_e
+
+LEVITATE
+p_levitation_b
+p_levitation_c
+p_levitation_s
+p_levitation_Q
+p_levitation_e
+
+LIGHT
+p_light_b
+p_light_c
+p_light_s
+p_light_q
+p_light_e
+
+LIGHTNING SHIELD
+p_lightning shield_b
+p_lightning shield_c
+p_lightning shield_s
+p_lightning shield_q
+p_lightning shield_e
+
+NIGHT EYE
+p_night-eye_b
+p_night-eye_c
+p_night-eye_s
+p_night-eye_q
+p_night-eye_e
+
+PARALYZE
+p_paralyze_b
+p_paralyze_c
+p_paralyze_s
+p_paralyze_q
+p_paralyze_e
+
+POISON
+
+RECALL
+failure
+failure
+p_recall_s
+p_recall_s
+p_recall_s
+
+REFLECT
+p_reflection_b
+p_reflection_c
+p_reflection_s
+p_reflection_q
+p_reflection_e
+
+RESIST COMMON DISEASE
+p_disease_resistance_b
+p_disease_resistance_c
+p_disease_resistance_s
+p_disease_resistance_q
+p_disease_resistance_e
+
+RESIST FIRE
+p_fire_resistance_b
+p_fire_resistance_c
+p_fire_resistance_s
+p_fire_resistance_q
+p_fire_resistance_e
+
+RESIST MAGICKA
+p_magicka_resistance_b
+p_magicka_resistance_c
+p_magicka_resistance_s
+p_magicka_resistance_q
+p_magicka_resistance_e
+
+RESIST PARALYSIS
+
+RESIST POISON
+p_poison_resistance_b
+p_poison_resistance_c
+p_poison_resistance_s
+p_poison_resistance_q
+p_poison_resistance_e
+
+RESIST SHOCK
+p_shock_resistance_b
+p_shock_resistance_c
+p_shock_resistance_s
+p_shock_resistance_q
+p_shock_resistance_e
+
+RESTORE AGILITY
+p_restore_agility_b
+p_restore_agility_c
+p_restore_agility_s
+p_restore_agility_q
+p_restore_agility_e
+
+RESTORE ENDURANCE
+p_restore_endurance_b
+p_restore_endurance_c
+p_restore_endurance_s
+p_restore_endurance_q
+p_restore_endurance_e
+
+RESTORE FATIGUE
+p_restore_fatigue_b
+p_restore_fatigue_c
+p_restore_fatigue_s
+p_restore_fatigue_q
+p_restore_fatigue_e
+
+RESTORE HEALTH
+p_restore_health_b
+p_restore_health_c
+p_restore_health_s
+p_restore_health_q
+p_restore_health_e
+
+RESTORE INTELLIGENCE
+p_restore_intelligence_b
+p_restore_intelligence_c
+p_restore_intelligence_s
+p_restore_intelligence_q
+p_restore_intelligence_e
+
+RESTORE LUCK
+p_restore_luck_b
+p_restore_luck_c
+p_restore_luck_s
+p_restore_luck_q
+p_restore_luck_e
+
+RESTORE MAGICKA
+p_restore_magicka_b
+p_restore_magicka_c
+p_restore_magicka_s
+p_restore_magicka_q
+p_restore_magicka_e
+
+RESTORE PERSONALITY
+p_restore_personality_b
+p_restore_personality_c
+p_restore_personality_s
+p_restore_personality_q
+p_restore_personality_e
+
+RESTORE SPEED
+p_restore_speed_b
+p_restore_speed_c
+p_restore_speed_s
+p_restore_speed_q
+p_restore_speed_e
+
+RESTORE STRENGTH
+p_restore_strength_b
+p_restore_strength_c
+p_restore_strength_s
+p_restore_strength_q
+p_restore_strength_e
+
+RESTORE WILLPOWER
+p_restore_willpower_b
+p_restore_willpower_c
+p_restore_willpower_s
+p_restore_willpower_q
+p_restore_willpower_e
+
+SPELL ABSORPTION
+p_spell_absorption_b
+p_spell_absorption_c
+p_spell_absorption_s
+p_spell_absorption_q
+p_spell_absorption_e
+
+SWIFT SWIM
+p_swift_swim_b
+p_swift_swim_c
+p_swift_swim_c
+p_swift_swim_q
+p_swift_swim_e
+
+TELEKINESIS
+failure
+failure
+p_telekinesis_s
+p_telekinesis_s
+p_telekinesis_s
+
+VAMPIRISM
+
+WATER BREATHING
+failure
+failure
+p_water_breathing_s
+p_water_breathing_s
+p_water_breathing_s
+
+WATER WALKING
+failure
+failure
+p_water_walking_s
+p_water_walking_s
+p_water_walking_s
+
+WEAKNESS TO FIRE
+
+WEAKNESS TO POISON

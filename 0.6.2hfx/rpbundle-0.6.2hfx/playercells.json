@@ -1,0 +1,9 @@
+{
+  "cells":{
+    "Gary, Indiana":{
+      "owner":"John Doe",
+      "members":["Fargoth","Middlegoth","Neargoth"],
+      "locked":0
+    },
+  }
+}

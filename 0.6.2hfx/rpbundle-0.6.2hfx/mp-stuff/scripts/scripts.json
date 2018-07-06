@@ -1,0 +1,5 @@
+{
+  "foo":[true,false,false]
+  "bar":[false,true,false]
+  "zulu":[true,true,false]
+}

@@ -1,0 +1,67 @@
+Install Guide
+1.) In server.lua add msgScript = require("msgScriptEssentials") near the top and under myMod = require("myMod")
+
+2.) CTRL+F and find OnServerInit() and put msgScript.Init() underneath LoadPluginList().
+
+3.) CTRL+F and find return false -- commands should be hidden then replace:
+
+        else
+            local message = "Not a valid command. Type /help for more info.\n"
+            tes3mp.SendMessage(pid, color.Error..message..color.Default, false)
+        end
+
+        return false -- commands should be hidden
+    end
+
+    return true -- default behavior, chat messages should not
+with:
+
+        elseif msgScript.OnPlayerSendCommand(pid, cmd, message) then
+		else
+            local message = "Not a valid command. Type /help for more info.\n"
+            tes3mp.SendMessage(pid, color.Error..message..color.Default, false)
+        end
+
+        return false -- commands should be hidden
+    end
+
+    return msgScript.OnPlayerSendMessage(pid, message)
+
+
+Installing Chat Scripts Using "msgScriptEssentials"
+1.) If a script is using msgScript then go into /mp-stuff/data/ and open scripts.json
+
+2.) The json is set up as "scriptname":[usesMsgFunction,usesCmdFunction,usesInitiateFunction] for example a command script: "scriptname":[false,true,false]
+
+3.) Drop the script into /mp-stuff/scripts/
+
+Developing With "msgScriptEssentials"
+Scripts return a number value back to msgScript to determine whether to break the loop to do something or not.
+
+
+MAKE SURE YOU DO THIS !!
+
+8.) CTRL+F and find OnPlayerConnect and put msgScript.GetScript("rpChatEssentials").OnPlayerConnect(pid) underneath myMod.OnPlayerConnect
+
+9.) CTRL+F and find OnPlayerDisconnect and put msgScript.GetScript("rpChatEssentials").OnPlayerDisconnect(pid) underneath myMod.OnPlayerDisconnect
+
+
+Return values:
+
+DO_NOTHING = 1
+HIDE_DEFAULT_CHAT = 2
+COMMAND_EXECUTED = 3
+for example in bar.lua when the command is called correctly it returns COMMAND_EXECUTED to break the command search; When the command is not called then it returns DO_NOTHING so that the scripts that come after it get a chance to run.
+
+Methods.OnPlayerSendCommand = function(pid, cmd, message)
+	if cmd[1] == "hello" then
+		tes3mp.SendMessage(pid, "Hello World!", false)
+		return COMMAND_EXECUTED
+	end
+	
+	return DO_NOTHING
+end
+
+In scripts.json, the scripts at the top get ran last. Which is good for scripts that hide default chat and dont want to interfere with other scripts.
+
+To use JSON in your scripts, use the Init() method to load your json tables.

@@ -1,0 +1,22 @@
+		else
+            Players[pid]:FinishLogin()
+            Players[pid]:Message("You have successfully logged in.\n")
+			tes3mp.CustomMessageBox(pid, -1, ""..color.Red.."Welcome to My Roleplay Server!"..color.Default.."\n\nThis is a "..color.Yellow.."SERIOUS"..color.Default.." roleplaying community!"..color.Error..""..color.Default.."\n\nUptime:\nThis server is up "..color.Yellow.."24/7"..color.Default.."\n\nThese are the rules for our community:\n\nAbsolutely "..color.Red.."NO"..color.Default.." hacking, scripting, cheating, or abusing privileges!\n\nNo "..color.Yellow.."Powergaming!"..color.Default.." (forcing your actions onto others without response)\n\nNo "..color.Yellow.."Metagaming!"..color.Default.." (taking out of character information into in-character)\n\n"..color.Default..""..color.Cyan.."Read the rest of the rules on our Discord!"..color.Default.."\n\nOur discord is located at:\n"..color.Cyan.."DISCORD LINK\n\n"..color.Default.."Server Host:\n"..color.Yellow.."PLACEHOLDER\n\n"..color.Default.."Community Founder:\n"..color.Red.."PLACEHOLDER\n\n"..color.Default.."Founded:\n"..color.Yellow.."PLACEHOLDER"..color.Default.."\n", "Ok")
+            Players[pid]:Message(color.Yellow.."Welcome back to My Roleplay Server!\n"..color.Default)            
+			Players[pid]:Message(color.Green.."We enforce Serious Roleplay, and a Safe Roleplaying Environment!\n"..color.Default)            
+			Players[pid]:Message(color.Blue.."Make sure you are in our Discord!\n(DISCORD LINK)\nit is required for maximum communication!\n"..color.Default)            
+			Players[pid]:Message(color.Orange.."If you would like to contribute to our project, Please consider donating, or sharing your scripting knowledge for a better experience!\n"..color.Default)
+        end
+    elseif idGui == GUI.ID.REGISTER then
+        if data == nil then
+            Players[pid]:Message("Password can not be empty\n")
+            GUI.ShowRegister(pid)
+            return true
+        end
+        Players[pid]:Registered(data)
+		tes3mp.CustomMessageBox(pid, -1, ""..color.Red.."Welcome to My Roleplay Server!"..color.Default.."\n\nThis is a "..color.Yellow.."SERIOUS"..color.Default.." roleplaying community!"..color.Error..""..color.Default.."\n\nUptime:\nThis server is up "..color.Yellow.."24/7"..color.Default.."\n\nThese are the rules for our community:\n\nAbsolutely "..color.Red.."NO"..color.Default.." hacking, scripting, cheating, or abusing privileges!\n\nNo "..color.Yellow.."Powergaming!"..color.Default.." (forcing your actions onto others without response)\n\nNo "..color.Yellow.."Metagaming!"..color.Default.." (taking out of character information into in-character)\n\n"..color.Default..""..color.Cyan.."Read the rest of the rules on our Discord!"..color.Default.."\n\nOur discord is located at:\n"..color.Cyan.."DISCORD LINK\n\n"..color.Default.."Server Host:\n"..color.Yellow.."PLACEHOLDER\n\n"..color.Default.."Community Founder:\n"..color.Red.."PLACEHOLDER\n\n"..color.Default.."Founded:\n"..color.Yellow.."PLACEHOLDER"..color.Default.."\n", "Ok")            
+		Players[pid]:Message(color.Yellow.."Welcome to My Roleplay Server!\n"..color.Default)            
+		Players[pid]:Message(color.Green.."We enforce Serious Roleplay, and a Safe Roleplaying Environment!\n"..color.Default)            
+		Players[pid]:Message(color.Blue.."Make sure you are in our Discord!\n(DISCORD LINK)\nit is required for maximum communication!\n"..color.Default)            
+		Players[pid]:Message(color.Orange.."If you would like to contribute to our project, Please consider donating, or sharing your scripting knowledge for a better experience!\n"..color.Default)
+        Players[pid]:Message("You have successfully registered.\nUse Y by default to chat or change it from your client config.\n")

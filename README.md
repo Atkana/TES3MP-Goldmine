@@ -7,5 +7,7 @@ The ZIP folder should have everything you need, credit should be in correspondin
 If you would like to submit any files that can be added to this Goldmine, please message me on steam, gmail, or discord!
 
 https://steamcommunity.com/id/sdpayne
+
 sdpayne113@gmail.com
+
 2cwldys#6457

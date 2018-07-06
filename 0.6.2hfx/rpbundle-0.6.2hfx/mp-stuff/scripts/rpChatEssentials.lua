@@ -391,9 +391,9 @@ Methods.SendActionMsg = function(pid, message)
 	local msg
 	if message:len() > 1 then
 		if nickNames[Players[pid].name] ~= nil and enableNickNames == true then
-			msg = actionMsgColor..actionMsgSymbol..""..color.Default..nickNames[Players[pid].name]..string.sub(periodAtEnd(message, 4))
+			msg = actionMsgColor..actionMsgSymbol..""..color.Default..nickNames[Players[pid].name]..string.sub(message, 4))
 		else
-			msg = actionMsgColor..actionMsgSymbol..""..color.Default..Players[pid].name..string.sub(periodAtEnd(message, 4))
+			msg = actionMsgColor..actionMsgSymbol..""..color.Default..Players[pid].name..string.sub(message, 4))
 		end
 			
 		if enableLocalChat == true then

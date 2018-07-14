@@ -43,9 +43,9 @@ terminate called after throwing an instance of 'luabridge::LuaException'
 If you are wanting cell resets to purge, while saving cell names in linux.
 
 #Path to your data folder in CoreScripts
-datadir=/home/nalal/TES3MP/TES3MPPersonal/CoreScripts/data
+datadir=/home/USER/TES3MP/TES3MPPersonal/CoreScripts/data
 #Path to a temporary folder to hold cells
-tmpdir=/home/nalal/TES3MP/TES3MPPersonal/tmp
+tmpdir=/home/USER/TES3MP/TES3MPPersonal/tmp
 
 #cells to save, copies to the temp folder
     cp "$datadir/cell/Gnisis, Arvs-Drelen.json" $tmpdir -f

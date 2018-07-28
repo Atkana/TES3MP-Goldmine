@@ -162,19 +162,9 @@ Methods.doRoll = function(pid, playerName, rollcheck)
     else rollCheckID = 27
     end
     if rollCheckID ~= 27 then
-        if isAttribute == true then
-            rollCheckValue = tes3mp.GetAttributeBase(pid, rollCheckID)
-        else
-            rollCheckValue = tes3mp.GetSkillBase(pid, rollCheckID)
-        end
-            maxroll = 100-rollCheckValue
-            if maxroll < 1 then maxroll = 1
-            end
             math.random()
-            roll = math.random(0,maxroll) + rollCheckValue
-            if roll > 100 then roll = 100
-            end
-            message = color.ForestGreen .. playerName .. " rolled " .. roll .. " on " .. rollcheck .. " check.\n" .. color.Default
+            roll = math.random(0,100)
+            message = color.Cyan .. playerName .. " rolled " .. roll .. " on " .. rollcheck .. " check.\n" .. color.Default
         local cellDescription = Players[pid].data.location.cell
         if myMod.IsCellLoaded(cellDescription) == true then
             for index, visitorPid in pairs(LoadedCells[cellDescription].visitors) do

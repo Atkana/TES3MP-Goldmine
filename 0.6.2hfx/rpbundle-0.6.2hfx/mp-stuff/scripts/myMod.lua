@@ -3,7 +3,6 @@ inventoryHelper = require("inventoryHelper")
 starterItems = require("starterItems")
 disableAssassins = require("disableAssassins")
 require("actionTypes")
-spawnRandomizer = require("spawnRandomizer")
 local time = require("time")
 questFixer = require("questFixer")
 menuHelper = require("menuHelper")
@@ -711,8 +710,6 @@ end
 Methods.OnPlayerEndCharGen = function(pid)
     if Players[pid] ~= nil then
         Players[pid]:EndCharGen()
-			spawnRandomizer.SpawnPosition(pid)
-			spawnRandomizer.SpawnItems(pid)
     end
 end
 

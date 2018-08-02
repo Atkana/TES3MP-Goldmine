@@ -24,7 +24,7 @@ World = nil
 
 banList = {}
 pluginList = {}
-spawnTable = {}
+
 timeCounter = config.timeServerInitTime
 
 if (config.databaseType ~= nil and config.databaseType ~= "json") and doesModuleExist("luasql." .. config.databaseType) then
@@ -241,7 +241,6 @@ function OnServerInit()
 
     myMod.InitializeWorld()
     myMod.PushPlayerList(Players)
-	spawnTable = spawnRandomizer.SpawnRandomizer()
 
     LoadBanList()
     LoadPluginList()
@@ -1130,6 +1129,8 @@ end
 
 function OnPlayerEndCharGen(pid)
     myMod.OnPlayerEndCharGen(pid)
+	spawnRandomizer.SpawnPosition(pid)
+	spawnRandomizer.SpawnItems(pid)
 end
 
 function OnCellLoad(pid, cellDescription)
